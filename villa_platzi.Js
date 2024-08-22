@@ -9,24 +9,24 @@ var papel = vp.getContext("2d");
 document.addEventListener("keyup", moverLobo);
 var jLobo;
 var fondo = {
-  url: "/images/tile.png",
+  url: "./images/tile.png",
   cargaOK: false,
 };
 var vaca = {
   //java script object notation (JSON)
-  url: "/images/vaca.png", //variable(propiedad) con la direccion de la imagen (objeto vaca), los atributos dentro de un objeto en JSON se separan con ","
+  url: "./images/vaca.png", //variable(propiedad) con la direccion de la imagen (objeto vaca), los atributos dentro de un objeto en JSON se separan con ","
   cargaOK: false, // variable con el estado de carga del objeto
 }; // no se puede agregar un
 var cerdo = {
-  url: "/images/cerdo.png",
+  url: "./images/cerdo.png",
   cargaOK: false,
 };
 var pollo = {
-  url: "/images/pollo.png",
+  url: "./images/pollo.png",
   cargaOK: false,
 };
 var lobo = {
-  url: "/images/lobo.png",
+  url: "./images/lobo.png",
   cargaOK: false,
 };
 
